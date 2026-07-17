@@ -1,0 +1,10 @@
+{
+  "module": "greet.js",
+  "export": "greet",
+  "cases": [
+    { "name": "basic greeting", "args": ["Ada"], "expect": "Hello, Ada!" },
+    { "name": "another name", "args": ["Grace"], "expect": "Hello, Grace!" },
+    { "name": "empty string throws", "args": [""], "throws": true },
+    { "name": "non-string throws", "args": [42], "throws": true }
+  ]
+}

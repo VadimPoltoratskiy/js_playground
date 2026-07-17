@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(npm start)",
+      "Bash(npm start -- *)",
+      "Bash(npm test)",
+      "Bash(npm run test:watch)",
+      "Bash(npm run lint)",
+      "Bash(npm run format)",
+      "Bash(npm run eval)",
+      "Bash(node .claude/evals/run.js)",
+      "Bash(node --test)",
+      "Bash(node --test *)",
+      "Bash(node src/*)"
+    ]
+  }
+}

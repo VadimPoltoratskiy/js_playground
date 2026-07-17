@@ -1,0 +1,27 @@
+{
+  "name": "js_playground",
+  "version": "0.1.0",
+  "description": "A playground for JavaScript experiments and snippets.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test",
+    "test:watch": "node --test --watch",
+    "eval": "node .claude/evals/run.js",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "javascript",
+    "playground",
+    "experiments"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "prettier": "^3.0.0"
+  }
+}
