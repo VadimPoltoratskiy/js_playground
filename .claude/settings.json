@@ -1,18 +1,4 @@
 {
-  "extraKnownMarketplaces": {
-    "dev-digest-ai-marketplace": {
-      "source": {
-        "source": "github",
-        "repo": "VadimPoltoratskiy/dev-digest-ai-marketplace"
-      }
-    }
-  },
-  "enabledPlugins": {
-    "engineering-paved-path@dev-digest-ai-marketplace": true,
-    "sdd-engineering@dev-digest-ai-marketplace": true,
-    "research-tools@dev-digest-ai-marketplace": true,
-    "architecture-review@dev-digest-ai-marketplace": true
-  },
   "permissions": {
     "allow": [
       "Bash(npm install)",
@@ -28,5 +14,19 @@
       "Bash(node --test *)",
       "Bash(node src/*)"
     ]
+  },
+  "enabledPlugins": {
+    "engineering-paved-path@dev-digest-ai-marketplace": true,
+    "sdd-engineering@dev-digest-ai-marketplace": true,
+    "research-tools@dev-digest-ai-marketplace": true,
+    "architecture-review@dev-digest-ai-marketplace": true
+  },
+  "extraKnownMarketplaces": {
+    "dev-digest-ai-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "VadimPoltoratskiy/dev-digest-ai-marketplace"
+      }
+    }
   }
 }
