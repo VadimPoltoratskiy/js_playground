@@ -33,6 +33,12 @@ js_playground/
 - **Evals** (`.claude/evals/`): data-driven behavior checks. `npm run eval`
   runs every `cases/*.json` against the matching `src/` module. See
   `.claude/evals/README.md` to add cases.
+- **Plugins** (`.claude/settings.json`): the
+  [dev-digest-ai-marketplace](https://github.com/VadimPoltoratskiy/dev-digest-ai-marketplace)
+  marketplace is registered via `extraKnownMarketplaces`, with these plugins
+  enabled via `enabledPlugins`: `engineering-paved-path`, `sdd-engineering`,
+  `research-tools`, `architecture-review`. When you trust this project folder,
+  Claude Code prompts to install them.
 
 ## Requirements
 
